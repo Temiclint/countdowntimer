@@ -1,0 +1,57 @@
+body{
+  box-sizing: border-box;
+  /* background-image: url("images/adrian-infernus-GLf7bAwCdYg-unsplash.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.firstHome{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  flex-wrap: wrap;
+
+}
+
+.flex-item{
+  width:100%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.heading{
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.start{
+  width:100px;
+  height: 30px;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 2px;
+
+}
+#inp{
+  width: 200px;
+  height: 30px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding:   5px;
+}
+.actualTimer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.counter{
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+}
